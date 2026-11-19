@@ -1,1 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>system &amp; hardware spoof</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>default</key><true/>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>key</key><string>enabled</string>
+            <key>label</key><string>enable iosspoof</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSLinkListCell</string>
+            <key>default</key><string>iPhone14,2</string>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>detail</key><string>PSListItemsController</string>
+            <key>key</key><string>hwModel</string>
+            <key>label</key><string>hardware model</string>
+            <key>validTitles</key>
+            <array>
+                <string>iPhone 11 (iPhone12,1)</string>
+                <string>iPhone 13 Pro (iPhone14,2)</string>
+                <string>iPhone 15 Pro (iPhone16,1)</string>
+                <string>iPad Pro M1 (iPad13,4)</string>
+                <string>real hardware</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>iPhone12,1</string>
+                <string>iPhone14,2</string>
+                <string>iPhone16,1</string>
+                <string>iPad13,4</string>
+                <string>REAL</string>
+            </array>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSLinkListCell</string>
+            <key>default</key><string>15.8</string>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>detail</key><string>PSListItemsController</string>
+            <key>key</key><string>iosVer</string>
+            <key>label</key><string>spoofed ios version</string>
+            <key>validTitles</key>
+            <array>
+                <string>iOS 14.8</string>
+                <string>iOS 15.8</string>
+                <string>iOS 16.7</string>
+                <string>iOS 17.5</string>
+                <string>real (9.3.6)</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <string>14.8</string>
+                <string>15.8</string>
+                <string>16.7</string>
+                <string>17.5</string>
+                <string>REAL</string>
+            </array>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSEditTextCell</string>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>key</key><string>customName</string>
+            <key>label</key><string>device name</string>
+            <key>placeholder</key><string>hacker's iphone</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>gps location spoof</string>
+            <key>footerText</key><string>double-tap status bar anywhere to toggle gps spoof.</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSSwitchCell</string>
+            <key>default</key><false/>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>key</key><string>gpsEnabled</string>
+            <key>label</key><string>enable gps spoof</string>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSLinkListCell</string>
+            <key>default</key><integer>0</integer>
+            <key>defaults</key><string>com.binarycrypted.iosspoof</string>
+            <key>detail</key><string>PSListItemsController</string>
+            <key>key</key><string>gpsCity</string>
+            <key>label</key><string>country / region</string>
+            <key>validTitles</key>
+            <array>
+                <string>Belarus — Minsk</string>
+                <string>Belarus — Mogilev</string>
+                <string>Russia — Moscow</string>
+                <string>Russia — Saint Petersburg</string>
+                <string>USA — New York (East)</string>
+                <string>USA — Los Angeles (West)</string>
+                <string>Japan — Tokyo</string>
+                <string>UK — London</string>
+                <string>Germany — Berlin</string>
+                <string>France — Paris</string>
+                <string>UAE — Dubai</string>
+                <string>South Korea — Seoul</string>
+                <string>Singapore — Central</string>
+                <string>Australia — Sydney</string>
+                <string>Brazil — Sao Paulo</string>
+            </array>
+            <key>validValues</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>7</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>10</integer>
+                <integer>11</integer>
+                <integer>12</integer>
+                <integer>13</integer>
+                <integer>14</integer>
+            </array>
+        </dict>
+        <dict>
+            <key>cell</key><string>PSGroupCell</string>
+            <key>label</key><string>support</string>
+        </dict>
+        <dict>
+            <key>action</key><string>showHelp</string>
+            <key>cell</key><string>PSButtonCell</string>
+            <key>label</key><string>help &amp; docs</string>
+        </dict>
+        <dict>
+            <key>action</key><string>openGitHub</string>
+            <key>cell</key><string>PSButtonCell</string>
+            <key>label</key><string>hacker // binarycrypted</string>
+        </dict>
+    </array>
+    <key>title</key><string>iOSSpoof</string>
+</dict>
+</plist>
 
