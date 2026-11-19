@@ -3,6 +3,9 @@
 #import <sys/utsname.h>
 #import <substrate.h>
 
+@interface UIStatusBar : UIView
+@end
+
 static NSString *const kPrefs = @"/var/mobile/Library/Preferences/com.binarycrypted.iosspoof.plist";
 
 static NSDictionary *prefs(void) {
@@ -94,4 +97,3 @@ static int hooked_uname(struct utsname *name) {
 %ctor {
     MSHookFunction((void *)uname, (void *)hooked_uname, (void **)&orig_uname);
 }
-
