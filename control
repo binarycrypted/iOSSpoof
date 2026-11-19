@@ -1,1 +1,9 @@
-
+Package: com.binarycrypted.iosspoof
+Name: iOSSpoof
+Depends: mobilesubstrate, preferenceloader
+Version: 2.0.0
+Architecture: iphoneos-arm
+Description: Kernel-level Darwin uname(), UIDevice, and CoreLocation GPS spoofer with native Settings panel.
+Maintainer: hacker // binarycrypted
+Author: hacker // binarycrypted
+Section: Tweaks
